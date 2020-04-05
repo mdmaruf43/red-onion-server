@@ -2,9 +2,10 @@
   "name": "red-onion-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "node index.js",
   "scripts": {
-    "start": "nodemon index",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "maruf",
@@ -14,6 +15,10 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongodb": "^3.5.5"
+    "mongodb": "^3.5.5",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }

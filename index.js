@@ -9,6 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const uri = process.env.DB_PATH;
+//const uri = "mongodb+srv://redOnionDB:V8gSQKCQDmNglfaF@cluster0-txf1p.mongodb.net/test?retryWrites=true&w=majority";
 let client = new MongoClient(uri, { useNewUrlParser: true });
 
 app.get('/products', (req, res) => {

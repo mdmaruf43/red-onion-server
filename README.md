@@ -11,5 +11,5 @@
 **Technology:** React, Redux, Material-UI, React Hooks, Firebase Hosting, Stripe Payment, Node.js, MongoDB\
 **Tools:** VSCode, Git, Netlify, Firebase, Hiroku.
 
-**Live Link:** [Power X Gym](https://red-onion-simple-restaurant.web.app/)\
-**Font-end Repo:** [Power X Gym](https://github.com/mdmaruf43/red-onion)
+**Live Link:** [Red Onion](https://red-onion-simple-restaurant.web.app/)\
+**Font-end Repo:** [Red Onion](https://github.com/mdmaruf43/red-onion)
